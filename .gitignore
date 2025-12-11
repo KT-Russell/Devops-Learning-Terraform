@@ -1,0 +1,34 @@
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+terraform.tfstate*
+terraform.tfstate.backup
+terraform.tfvars
+
+# Crash log files
+crash.log
+
+# Local environment overrides
+terraform.tfvars
+*.tfvars.json
+
+# Terraform provider plugins & cache
+.terraform/
+.terraform.lock.hcl
+
+# Sensitive files (keys, credentials)
+*.pem
+*.key
+*.crt
+
+# Cloud-init or user-data templates with secrets
+user-data.yaml
+user-data.sh
+
+# OS or IDE specific
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.bak
+*.tmp
