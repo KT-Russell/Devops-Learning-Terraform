@@ -4,17 +4,12 @@ This project was built for learning purposes, with the goal of understanding Ter
 
 All configuration of the instance is handled automatically on boot using **cloud-init**, with no manual setup required.
 
----
 
 ![WordPress](images/Wordpress-php.png)
 
 
-
-
-
-
 ## Project Overview – What This Stack Uses
----
+
 Terraform is used to provision a complete environment that includes:
 
 A custom VPC
@@ -30,7 +25,7 @@ Security groups
 An EC2 instance running WordPress
 
 A cloud-init script that installs and configures everything needed for WordPress
----
+
 
 
 ## How the Infrastructure Works
@@ -86,7 +81,7 @@ Generates the WordPress config file with the required keys
 Sets up the virtual host so WordPress loads immediately in the browser
 
 Once Terraform completes, the EC2 instance is fully ready for WordPress setup and login.
----
+
 
 
 ## Deploy this yourself:
@@ -114,7 +109,7 @@ Deploy the full WordPress environment:
 
 
 When the apply is complete, open the EC2 instance’s Public IPv4 address in your browser to access WordPress.
----
+
 
 ## Destroying the Environment
 
