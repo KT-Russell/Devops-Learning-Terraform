@@ -4,6 +4,15 @@ This project was built for learning purposes, with the goal of understanding Ter
 
 All configuration of the instance is handled automatically on boot using **cloud-init**, with no manual setup required.
 
+---
+
+![WordPress](images/Wordpress-php.png)
+
+
+
+
+
+
 ## Project Overview – What This Stack Uses
 ---
 Terraform is used to provision a complete environment that includes:
